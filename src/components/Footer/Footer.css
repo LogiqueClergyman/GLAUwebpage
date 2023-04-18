@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');*{
+                              font-family: "Poppins", sans-serif;
+                              margin:0; padding:0;
+                              box-sizing: border-box;
+                              text-decoration: none;
+                              outline: none; border:none;
+                              text-transform: capitalize;
+                              transition:all .2s linear;
+                          }
+                          
+                          html{
+                              font-size: 62.5%;
+                              overflow-x: hidden;
+                          }
+                          
+                          
+                          html::-webkit-scrollbar{
+                              width:1.4rem;
+                          }
+                          
+                          html::-webkit-scrollbar-track{
+                              background:#333;
+                          }
+                          
+                          html::-webkit-scrollbar-thumb{
+                              background:var(--yellow);
+                          }
+                          
+                          section{
+                              min-height: 80vh;
+                              padding:1rem 10%;
+                              padding-top: 4rem;
+                          }
+                          
+                          .footer{
+                              background:#282727;
+                              padding:1rem 7%;
+                          }
+                          
+                          .footer .box-container{
+                              display: flex;
+                              flex-wrap: wrap;
+                          }
+                          
+                          .footer .box-container .box{
+                              flex:1 1 25rem;
+                              margin:2rem;
+                          }
+                          .footer .box-container .box h2{
+                              font-size: 2.5rem;
+                              color:#fff;
+                              padding:1rem 0;
+                              font-weight: normal;
+                          }
+                          
+                          .footer .box-container .box h3{
+                              border-bottom: .2rem solid #3db166;
+                              font-size: 17px;
+                              color:#fff;
+                              padding:1rem 0;
+                              font-weight: normal;
+                              font-weight:bolder;
+                          }
+                          
+                          .footer .box-container .box p{
+                              font-size: 1.7rem;
+                              color:#eee;
+                              padding:1rem 0;
+                          }
+                          
+                          .footer .box-container .box a{
+                              
+                              font-size: 16px;
+                              color:#ABABAB;
+                              padding:1rem 0;
+                              display: block;
+                          }
+                          
+                          .footer .box-container .box a:hover{
+                              color:#3db166;
+                          }
+                          
+                          .footer .box-container .box p i{
+                              padding-right: .5rem;
+                              color:var(--yellow);
+                          }
+                          
+                          .footer .credit{
+                              font-size: 15px;
+                              text-align: left;
+                              border-top: .2rem solid#a4a8a5;
+                              padding:2rem 1rem;
+                              font-weight: normal;
+                              letter-spacing: .1rem;
+                              color:#ABABAB;
+                          }
